@@ -1,0 +1,123 @@
+/*** Fonts ***/
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+/*** Body ***/
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Josefin Slab','Helvetica Neue', Arial, sans-serif;
+    background-color: #282828;
+    color: #C9C9C9;
+}
+/*** Navigation ***/
+.navbar-brand {
+	font-family: "Kaushan Script";
+}
+.prime {
+	font-family: "Josefin Slab";
+	font-size: 1.3em;
+	/*font-color: #C9C9C9;*/
+}
+a {
+    color: #FFFFFF;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4;
+}
+
+/** Header **/
+.fancy {
+	font-family: "Dancing Script";
+	text-transform: none;
+}
+
+header {
+    position: relative;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/full-image5.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+hr {
+    max-width: 80px;
+    border-width: 3px;
+    opacity: 0.09;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header .picture {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+    z-index: 2;
+}
+header .picture .one h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+header .picture .one p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.7);
+}
+@media(min-width:768px) {
+    header {
+        min-height: 100%;
+    }
+
+    header .picture {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    header .picture .one {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+
+    header .picture .one h1 {
+        font-size: 53px;
+    }
+
+    header .picture .one p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        font-size: 18px;
+    }
+    
+    section {
+        min-height: 600px;
+        padding: 100px 0;
+    }
+
+}
+
+
+
+
+
+
+
+
