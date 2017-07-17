@@ -94,7 +94,7 @@ header .picture .one p {
 
 /***** General Responsive Design *****/
 
-@media(min-width : 20px) and (max-width : 767px) {
+@media(min-width : 20px) and (max-width : 899px) {
 	header {
     position: relative;
     min-height: 100%;
@@ -108,9 +108,17 @@ header .picture .one p {
     background-size: cover;
     -o-background-size: cover;
 }
+header .picture {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
 }
 
-@media(min-width:768px) {
+@media(min-width: 900px) {
     header {
         min-height: 100%;
     }
