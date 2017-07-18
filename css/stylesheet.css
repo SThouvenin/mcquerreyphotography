@@ -13,7 +13,7 @@ body {
 
 body {
     font-family: 'Josefin Slab','Helvetica Neue', Arial, sans-serif;
-    background-color: #282828;
+    background-color: #202020;
     color: #C9C9C9;
 }
 /*** Navigation ***/
@@ -81,7 +81,7 @@ header .picture .one p {
 }
 /*** quotes ***/
 .quote {
-	background-color: #090909;
+	background-color: #0D0D0D;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -89,6 +89,53 @@ header .picture .one p {
 #inner-quote {
 	font-family: "Kaushan Script", Arial;
 }
+
+/*** About ***/
+#about img {
+	width: 150px; 
+	border-radius: 25%;
+    margin-top: 30px;
+    border: 2px solid #2D2D2D;
+}
+#about {
+	background-image: url('../assets/grey.jpg');
+	text-align: center;
+	color: #fafafa;
+	background-size: cover;
+	min-height: 100%;
+	padding: 25px 0;
+	min-height: 50%;
+}
+#subtitle{
+	font-size: 333%;
+	font-family: "Montez";
+}
+.profile span {
+	text-align: center;
+}
+#small-header{
+	text-align: left;
+	margin-left: 9.75%;
+	font-style: italic;
+	text-decoration: underline;
+}
+.about-blurb{
+	font-size: .9em;
+}
+.aboutp{
+	text-align: left;
+	font-size: 1.3em;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+hr {
+    max-width: 80px;
+    border-width: 3px;
+    opacity: 0.09;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 
 /***** General Responsive Design *****/
 
@@ -151,7 +198,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
-	.fancy{
+.fancy{
 	margin-top: 200px;
 	font-size: 3em;
 }
