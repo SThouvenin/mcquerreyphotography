@@ -56,7 +56,6 @@ header {
 }
 
 hr {
-    max-width: 80px;
     border-width: 3px;
     opacity: 0.09;
     margin-top: 15px;
@@ -1282,7 +1281,7 @@ header .picture .one p {
     }
 }*/
 
-@media(min-width:788px) {
+@media(min-width:767px) {
     header {
         min-height: 100%;
     }
