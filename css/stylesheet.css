@@ -92,7 +92,7 @@ header .picture .one p {
 
 /*** About ***/
 #about img {
-	width: 150px; 
+	width: 175px; 
 	border-radius: 25%;
     margin-top: 30px;
     border: 2px solid #2D2D2D;
@@ -106,29 +106,30 @@ header .picture .one p {
 	padding: 25px 0;
 	min-height: 50%;
 }
-#subtitle{
+#subtitle {
 	font-size: 333%;
 	font-family: "Montez";
 }
 .profile span {
 	text-align: center;
 }
-#small-header{
+#small-header {
+	font-size: 1.6em;
 	text-align: left;
-	margin-left: 9.75%;
+	margin-left: 9%;
 	font-style: italic;
 	text-decoration: underline;
 }
-.about-blurb{
+.about-blurb {
 	font-size: .9em;
 }
-.aboutp{
+.aboutp {
 	text-align: left;
 	font-size: 1.3em;
 	margin-left: 9%;
 	margin-right: 9%;
 }
-hr {
+.abouthr {
     max-width: 80px;
     border-width: 3px;
     opacity: 0.09;
