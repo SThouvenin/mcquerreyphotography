@@ -203,7 +203,7 @@ header {
     -o-background-size: cover;
 }
 .fancy{
-	margin: 200px;
+	margin-top: 200px ;
 	font-size: 3em;
 }
 .smaller {
@@ -262,7 +262,7 @@ header {
 .fancy {
 	font-family: "Montez";
 	text-transform: none;
-	font-size: 3.2em;
+	font-size: 1.1em !important;
 	padding-top: 150px;
 }
 .fancy{
@@ -397,7 +397,7 @@ header {
 	padding-top: 3%;
 }
 .fancy{
-	margin-top: -150px;
+	margin-top: 300px !important; 
 }
 
 .smaller {
@@ -435,7 +435,6 @@ header {
 	font-size: 1.5em;
 	text-transform: none;
 	/*padding-bottom: 35%;*/
-
 }
 }
 
@@ -469,7 +468,6 @@ header {
 .smaller {
 	text-transform: none;
 	font-size: .9em;
-
 }
 }
 
@@ -501,7 +499,6 @@ header {
 	text-transform: none;
 	font-size: .9em;
 	/*padding-bottom: 5%;*/
-
 }
 }
 
@@ -533,7 +530,6 @@ header {
 .smaller {
 	text-transform: none;
 	font-size: .9em;
-
 }
 }
 
@@ -565,7 +561,6 @@ header {
 	text-transform: none;
 	font-size: .9em;
 	/*padding-bottom: 5%;*/
-
 }
 }
 
@@ -597,7 +592,6 @@ header {
 .smaller {
 	text-transform: none;
 	font-size: .95em;
-
 }
 }
 
@@ -660,7 +654,6 @@ header {
 .smaller {
 	text-transform: none;
 	font-size: .95em;
-
 }
 }
 
@@ -723,7 +716,6 @@ header {
 .smaller {
 	text-transform: none;
 	font-size: 1em;
-
 }
 }
 
@@ -1098,7 +1090,7 @@ header {
 	/*padding-top: 3%;*/
 }
 .fancy{
-	margin-top: -20%;
+	margin-top: 750px !important;
 }
 
 .smaller {
@@ -1126,10 +1118,10 @@ header {
 	font-family: "Montez";
 	text-transform: none;
 	font-size: 8em;
-	padding-top: 3%;
+	padding-top: 3% !important;
 }
 .fancy{
-	margin-top: -10%;
+	margin-top: -10% !important;
 }
 
 .smaller {
