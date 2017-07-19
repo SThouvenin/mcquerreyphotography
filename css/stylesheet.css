@@ -13,7 +13,7 @@ body {
 
 body {
     font-family: 'Josefin Slab','Helvetica Neue', Arial, sans-serif;
-    background-color: #202020;
+    background-color: #1E1D1F;
     color: #C9C9C9;
 }
 /*** Navigation ***/
@@ -136,8 +136,65 @@ header .picture .one p {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+/*****Testimonial*****/
+#testimonials {
+	background: #070707;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 55px;
+}
+#outside{
+	background-color: #1E1E1E;
+	display: inline-block;
+	width: 85%;
+	max-width: 500px;
+	margin: 5% 3% 0 3%;
+	padding-top: 3%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 4%;
 
-
+}
+.test1{
+	width: 80%;
+	border: 2px solid;
+	border-color: #2D2D2D;
+	border-radius: 100%;
+	margin-bottom: 5%;
+}
+.test-name{
+	font-style: italic;
+	font-size: 1.6em;
+	font-family: "Kaushan Script";
+}
+.info{
+	/*background-color: grey;*/
+	font-size: 1.3em;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+/*****Footer*****/
+.panel-footer {
+	background-color: #1E1D1F; 
+	margin-top: 30px;
+	padding-top: 35px;
+    padding-bottom:30px;
+    border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#contact-info, #address {
+  line-height: 2; /* adjusts space between lines */
+}
+#contact-info > span, #address > span { /*hours and address became larger */
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
 /***** General Responsive Design *****/
 
 @media (min-width : 20px) and (max-width : 766px) {
