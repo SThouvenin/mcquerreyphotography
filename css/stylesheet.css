@@ -195,6 +195,19 @@ header .picture .one p {
   font-size: .8em;
   line-height: 1.8;
 }
+.ion-social-facebook{
+	color: #05056F;
+}
+#social a {
+	font-size: 500%;
+	text-align: right;
+	text-decoration: none;
+}
+#social a span {
+	font-size: 80%;
+}
+
+
 /***** General Responsive Design *****/
 
 @media (min-width : 20px) and (max-width : 766px) {
