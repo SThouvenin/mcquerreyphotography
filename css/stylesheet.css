@@ -147,7 +147,7 @@ header .picture .one p {
 	background-color: #1E1E1E;
 	display: inline-block;
 	width: 85%;
-	max-width: 500px;
+	max-width: 375px;
 	margin: 5% 3% 0 3%;
 	padding-top: 3%;
 	padding-left: 2%;
@@ -1424,4 +1424,3 @@ header {
 	padding-bottom: 5%;
 }
 }
-
