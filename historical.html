@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Style Sheets -->
     <link rel="stylesheet" href="./css/resets.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/ionicons.min.css" />
-    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/historical.css">
 
     <!-- Fonts -->
 
   </head>
-  <body>
+<body>
     <nav id="topNav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -26,17 +27,17 @@
           </button>
         <a class="navbar-brand heading" href="#home">Stacy McQuerrey</a>
         </div>
-        <div class="navbar-collapse collapse" id="navbar">
-          <ul class="nav navbar-nav">
-            <li>
-              <a class="prime" href="#one">Home</a>
-            </li>
-            <li>
-              <a class="dropdown prime" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria expanded="false">Portfolio<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a class="active" href="#">Beauty/Glamour</a></li>
+      <div class="navbar-collapse collapse" id="navbar">
+        <ul class="nav navbar-nav">
+          <li>
+            <a class="prime" href="#one">Home</a>
+          </li>
+          <li>
+            <a class="dropdown prime" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria expanded="false">Portfolio<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+        <li><a href="#">Beauty/Glamour</a></li>
                 <li><a href="#">Fantasy</a></li>
-                <li><a href="#">Historical Fashion</a></li>
+                <li><a href="#">Historical Couture</a></li>
                 <li><a href="#">Fairytale</a></li>
                 <li><a href="#">Ethereal</a></li>
                 <li><a href="#">Pinup</a></li>
@@ -51,22 +52,34 @@
                 <li><a href="#">Custom Dresses</a></li>
                 <li><a href="#">Weddings</a></li>
                 <li role="separator" class="divider"></li>
-              </ul>
-            <li>
-              <a class="prime" href="#about">About Me</a>
-            </li>
-            <li>
-              <a class="prime" href="#testimonials">Testimonials</a>
-            </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right" class="prime">
-            <li>
-              <a class="prime" href="#bottom">Contact</a>
-            </li>
-           </ul>
-        </div>
-      </div>
-    </nav>
+          <li>
+            <a class="prime" href="#about">About Me</a>
+          </li>
+          <li>
+            <a class="prime" href="#testimonials">Testimonials</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" class="prime">
+          <li>
+            <a class="prime" href="#bottom">Contact</a>
+          </li>
+         </ul>
+    </div>
+    </div>
+  </nav>
+  <header id="one" class="one">
+    <div class="picture">
+      <h1 class="fancy">Historical Couture</h1>
+      <h4 class="smaller"></h4>
+      <hr class="hidden">
+    </div>
+  </header>
+  <div class="quote">
+    <div class="container-fluid">
+    <h4 id="inner-quote" class="text-center"> "Once in awhile, right in the middle of an ordinary life, Love gives us a fairy tale" -Anonymous </h4>
+    </div>
+  </div>
     <footer id="bottom" class="panel-footer">
       <div class="container-fluid">
         <div class="row">
@@ -91,5 +104,12 @@
         <div class="text-center">&copy; Copyright Shannon Thouvenin 2017</div>
       </div>
     </footer>
+
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+   <!--  <script src="./js/script.js"></script> -->
   </body>
   </html>

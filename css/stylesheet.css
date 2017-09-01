@@ -211,18 +211,8 @@ header .picture .one p {
 /***** General Responsive Design *****/
 
 @media (min-width : 20px) and (max-width : 766px) {
-	header {
-    position: relative;
-    min-height: 100%;
-    text-align: center;
-    color: #fff;
-    width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+	.hidden {
+display: visible;
 }
 }
     /*header .fancy {
