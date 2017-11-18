@@ -34,6 +34,17 @@ a {
 
 
 /** Header **/
+#slideshow, img.bgM {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:-9999;
+}
+
 .fancy {
 	font-family: "Montez";
 	text-transform: none;
@@ -54,6 +65,8 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+
+
 
 hr {
     border-width: 3px;
@@ -173,6 +186,11 @@ header .picture .one p {
 	padding-left: 5%;
 	padding-right: 5%;
 }
+
+/*** Show Images ***/
+.showImage {
+    height: 500px;
+}
 /*****Footer*****/
 .panel-footer {
 	background-color: #1E1D1F; 
@@ -211,48 +229,28 @@ header .picture .one p {
 /***** General Responsive Design *****/
 
 @media (min-width : 20px) and (max-width : 766px) {
-	.hidden {
+    .hidden {
 display: visible;
-}
-header {
-    position: relative;
-    min-height: 100%;
-    text-align: center;
-    color: #fff;
-    width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.fancy{
-    margin-top: 200px;
-    font-size: 3em;
-}
-.smaller {
-    text-transform: none;
 }
 }
     /*header .fancy {
-    	margin: -20%;
+        margin: -20%;
     }
     header .smaller{
-    	margin: 21%;
+        margin: 21%;
     }
-	header .picture {
-	    position: absolute;
-	    top: 50%;
-	    padding: 0 50px;
-	    -webkit-transform: translateY(-50%);
-	    -ms-transform: translateY(-50%);
-	    transform: translateY(-50%);
+    header .picture {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
     header .picture .one {
-	    margin-right: auto;
-	    margin-left: auto;
-	    max-width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
     }
     header .picture .one h1 {
         font-size: 53px;
@@ -280,13 +278,13 @@ header {
     -o-background-size: cover;
 }
 .fancy{
-	margin-top: 190px;
-	font-size: 3em;
+    margin-top: 200px;
+    font-size: 3em;
 }
 .smaller {
-	text-transform: none;
+    text-transform: none;
 
-/*	padding-bottom: 20%;*/
+/*  padding-bottom: 20%;*/
 }
 }
 /*    header {
@@ -331,12 +329,12 @@ header {
     -o-background-size: cover;
 }
 .fancy{
-	margin-top: 200px ;
-	font-size: 3em;
+    margin-top: 200px ;
+    font-size: 3em;
 }
 .smaller {
-	text-transform: none;
-/*	padding-bottom: 20%;*/
+    text-transform: none;
+/*  padding-bottom: 20%;*/
 }
 }
 
@@ -388,19 +386,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 1.1em ;
-	padding-top: 150px;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 1.1em !important;
+    padding-top: 150px;
 }
 .fancy{
-	margin-top: -175px;
+    margin-top: -175px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 1.3em;
-/*	padding-bottom: 70%;*/
+    text-transform: none;
+    font-size: 1.3em;
+/*  padding-bottom: 70%;*/
 }
 }
 
@@ -419,9 +417,6 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
-.fancy{
-    margin-top: 12px !important;
-}
 }
 
 @media screen and (device-width : 732px) and (device-height : 412px) {
@@ -439,19 +434,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3.8em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3.8em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: -20px !important;
+    margin-top: -20px;
 }
 
 .smaller {
-	font-size: 1.5em;
-	text-transform: none;
-	padding-bottom: 35%;
+    font-size: 1.5em;
+    text-transform: none;
+    padding-bottom: 35%;
 
 }
 }
@@ -488,19 +483,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3.8em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3.8em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: ;
+    margin-top: -20px;
 }
 
 .smaller {
-	font-size: 1.5em;
-	text-transform: none;
-/*	padding-bottom: 35%;*/
+    font-size: 1.5em;
+    text-transform: none;
+/*  padding-bottom: 35%;*/
 
 }
 }
@@ -522,19 +517,19 @@ header {
  }
 
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3.8em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3.8em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: 300px !important; 
+    margin-top: 300px !important; 
 }
 
 .smaller {
-	font-size: 1.5em;
-	text-transform: none;
-	/*padding-bottom: 35%;*/
+    font-size: 1.5em;
+    text-transform: none;
+    /*padding-bottom: 35%;*/
 }
 }
 
@@ -545,7 +540,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/full-image1.jpg');
+    background-image: url('../assets/cell-image2.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -553,19 +548,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3.8em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3.8em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: ;
+    margin-top: -150px;
 }
 
 .smaller {
-	font-size: 1.5em;
-	text-transform: none;
-	/*padding-bottom: 35%;*/
+    font-size: 1.5em;
+    text-transform: none;
+    /*padding-bottom: 35%;*/
 }
 }
 
@@ -587,18 +582,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 1.9em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 1.9em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: 175px;
+    margin-top: 175px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: .9em;
+    text-transform: none;
+    font-size: .9em;
 }
 }
 
@@ -617,19 +612,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 2em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 2em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: -20px;
+    margin-top: 125px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: .9em;
-	/*padding-bottom: 5%;*/
+    text-transform: none;
+    font-size: .9em;
+    /*padding-bottom: 5%;*/
 }
 }
 
@@ -649,18 +644,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 1.9em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 1.9em;
+    padding-top: 3%;
 }
 .fancy{
-	/*margin-top: 230px;*/
+    /*margin-top: 230px;*/
 }
 
 .smaller {
-	text-transform: none;
-	font-size: .9em;
+    text-transform: none;
+    font-size: .9em;
 }
 }
 
@@ -679,19 +674,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 2em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 2em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: 125px;
+    margin-top: 125px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: .9em;
-	/*padding-bottom: 5%;*/
+    text-transform: none;
+    font-size: .9em;
+    /*padding-bottom: 5%;*/
 }
 }
 
@@ -711,18 +706,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 2.1em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 2.1em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: 145px;
+    margin-top: 145px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: .95em;
+    text-transform: none;
+    font-size: .95em;
 }
 }
 
@@ -741,19 +736,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 2.5em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 2.5em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: -15px;
+    margin-top: -15px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: .95em;
-	/*padding-bottom: 5%;*/
+    text-transform: none;
+    font-size: .95em;
+    /*padding-bottom: 5%;*/
 }
 }
 
@@ -773,18 +768,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 2.5em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 2.5em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: 145px;
+    margin-top: 145px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: .95em;
+    text-transform: none;
+    font-size: .95em;
 }
 }
 
@@ -803,19 +798,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 2.9em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 2.9em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: -15px;
+    margin-top: -15px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 1.1em;
-	/*padding-bottom: 5%;*/
+    text-transform: none;
+    font-size: 1.1em;
+    /*padding-bottom: 5%;*/
 }
 }
 
@@ -835,18 +830,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3.3em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3.3em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: 250px;
+    margin-top: 250px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 1em;
+    text-transform: none;
+    font-size: 1em;
 }
 }
 
@@ -866,19 +861,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 2.9em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 2.9em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: -15px;
+    margin-top: -15px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 1.1em;
-	padding-bottom: 5%;
+    text-transform: none;
+    font-size: 1.1em;
+    padding-bottom: 5%;
 }
 }
 
@@ -898,18 +893,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3.5em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3.5em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: -150px;
+    margin-top: -150px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 1.25em;
+    text-transform: none;
+    font-size: 1.25em;
 
 }
 }
@@ -929,19 +924,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3.5em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3.5em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: -15px;
+    margin-top: -15px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 1.25em;
-	padding-bottom: 5%;
+    text-transform: none;
+    font-size: 1.25em;
+    padding-bottom: 5%;
 }
 }
 
@@ -962,18 +957,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 2.5em;
-	/*padding-top: 3%;*/
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 2.5em;
+    /*padding-top: 3%;*/
 }
 .fancy{
-	margin-top: 100px;
+    margin-top: 100px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 0.95em;
+    text-transform: none;
+    font-size: 0.95em;
 
 }
 }
@@ -993,19 +988,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3.5em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3.5em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: -15px;
+    margin-top: -15px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 1.25em;
-	padding-bottom: 5%;
+    text-transform: none;
+    font-size: 1.25em;
+    padding-bottom: 5%;
 }
 }
 
@@ -1026,18 +1021,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 2.5em;
-	/*padding-top: 3%;*/
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 2.5em;
+    /*padding-top: 3%;*/
 /*}
 .fancy{
-	margin-top: 100px;
+    margin-top: 100px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 0.95em;
+    text-transform: none;
+    font-size: 0.95em;
 
 }
 }
@@ -1057,19 +1052,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3.5em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3.5em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: -15px;
+    margin-top: -15px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 1.25em;
-	padding-bottom: 5%;
+    text-transform: none;
+    font-size: 1.25em;
+    padding-bottom: 5%;
 }
 }*/
 
@@ -1089,18 +1084,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3.3em;
-	/*padding-top: 3%;*/
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3.3em;
+    /*padding-top: 3%;*/
 }
 .fancy{
-	margin-top: 300px;
+    margin-top: 300px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 1.25em;
+    text-transform: none;
+    font-size: 1.25em;
 
 }
 }
@@ -1120,19 +1115,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3.5em;
-	padding-top: 3%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3.5em;
+    padding-top: 3%;
 }
 .fancy{
-	margin-top: px;
+    margin-top: -15px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 1.25em;
-	padding-bottom: 5%;
+    text-transform: none;
+    font-size: 1.25em;
+    padding-bottom: 5%;
 }
 }
 /***** VARIOUS DEVICES *****/
@@ -1152,18 +1147,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 2.5em;
-	/*padding-top: 3%;*/
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 2.5em;
+    /*padding-top: 3%;*/
 }
 .fancy{
-	margin-top: 100px;
+    margin-top: 100px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 0.95em;
+    text-transform: none;
+    font-size: 0.95em;
 
 }
 }
@@ -1183,19 +1178,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3em;
-	padding-top: 30%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3em;
+    padding-top: 30%;
 }
 .fancy{
-	margin-top: -100px;
+    margin-top: -70px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: .95em;
-	padding-bottom: 5%;
+    text-transform: none;
+    font-size: .95em;
+    padding-bottom: 5%;
 }
 }
 
@@ -1215,18 +1210,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 8em;
-	/*padding-top: 3%;*/
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 8em;
+    /*padding-top: 3%;*/
 }
 .fancy{
-	margin-top: 750px !important;
+    margin-top: 750px !important;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 2.5em;
+    text-transform: none;
+    font-size: 2.5em;
 
 }
 }
@@ -1246,19 +1241,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 8em;
-	padding-top: 3% !important;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 8em;
+    padding-top: 3% !important;
 }
 .fancy{
-	margin-top: -10% !important;
+    margin-top: -10% !important;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 2.5em;
-	padding-bottom: 5%;
+    text-transform: none;
+    font-size: 2.5em;
+    padding-bottom: 5%;
 }
 }
 
@@ -1278,18 +1273,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 2em;
-	/*padding-top: 3%;*/
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 2em;
+    /*padding-top: 3%;*/
 }
 .fancy{
-	margin-top: 85px;
+    margin-top: 85px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 0.8em;
+    text-transform: none;
+    font-size: 0.8em;
 
 }
 }
@@ -1309,19 +1304,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3em;
-	padding-top: 30%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3em;
+    padding-top: 30%;
 }
 .fancy{
-	margin-top: -175px;
+    margin-top: -175px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: .95em;
-	padding-bottom: 5%;
+    text-transform: none;
+    font-size: .95em;
+    padding-bottom: 5%;
 }
 }
 
@@ -1341,18 +1336,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 2.5em;
-	/*padding-top: 3%;*/
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 2.5em;
+    /*padding-top: 3%;*/
 }
 .fancy{
-	margin-top: 100px;
+    margin-top: 100px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 0.95em;
+    text-transform: none;
+    font-size: 0.95em;
 
 }
 }
@@ -1372,19 +1367,19 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3em;
-	/*padding-top: 30%;*/
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3em;
+    /*padding-top: 30%;*/
 }
 .fancy{
-	margin-top: -170px;
+    margin-top: -170px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: .95em;
-	padding-bottom: 5%;
+    text-transform: none;
+    font-size: .95em;
+    padding-bottom: 5%;
 }
 }
 
@@ -1404,18 +1399,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 2.5em;
-	/*padding-top: 3%;*/
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 2.5em;
+    /*padding-top: 3%;*/
 }
 .fancy{
-	margin-top: 100px;
+    margin-top: 100px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: 0.95em;
+    text-transform: none;
+    font-size: 0.95em;
 
 }
 }
@@ -1435,18 +1430,18 @@ header {
     -o-background-size: cover;
 }
 .fancy {
-	font-family: "Montez";
-	text-transform: none;
-	font-size: 3em;
-	padding-top: 30%;
+    font-family: "Montez";
+    text-transform: none;
+    font-size: 3em;
+    padding-top: 30%;
 }
 .fancy{
-	margin-top: -200px;
+    margin-top: -200px;
 }
 
 .smaller {
-	text-transform: none;
-	font-size: .95em;
-	padding-bottom: 5%;
+    text-transform: none;
+    font-size: .95em;
+    padding-bottom: 5%;
 }
 }
