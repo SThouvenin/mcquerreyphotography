@@ -279,6 +279,15 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+    .navbar-inverse {
+        border-color: transparent;
+        background-color: transparent;
+        min-height: 60px;
+    }
+    .navbar-inverse.affix {
+    border-color: rgba(34,34,34,.05);
+    background-color: #222;
+}
 .fancy{
 	margin-top: 190px;
 	font-size: 3em;
