@@ -1,41 +1,38 @@
-function changeImage()
-{
-    var img = document.getElementById("rotator");
-    img.src = images[x];
-    x++;
+// cut the mustard
+if ('querySelector' in document && 
+    'addEventListener' in window) {
 
-    if(x >= images.length){
-        x = 0;
-    } 
+    var toggleButtons = document.querySelectorAll('.toggle-content');
+    var fullTextWrappers = document.querySelectorAll('.fulltext');
+    var fullText;
+    var toggleButtonText;
+    
 
-    fadeImg(img, 600, true);
-    setTimeout("changeImage()", 6000);
+    [].forEach.call(fullTextWrappers, function(fullTextWrapper) {
+        // hide all full text on load
+        fullTextWrapper.setAttribute('hidden', true);
+    });
+
+    [].forEach.call(toggleButtons, function(toggleButton) {
+        // show toggle more buttons
+        toggleButton.removeAttribute('hidden');
+
+        // add listener for each button
+        toggleButton.addEventListener('click', function () {
+
+            fullTextWrapper = this.parentElement.querySelector('.fulltext');
+            toggleButtonText = this.querySelector('.text');
+
+            // change attributes and text if full text is shown/hidden
+            if (!fullTextWrapper.hasAttribute('hidden')) {
+                toggleButtonText.innerText = 'Show More';
+                fullTextWrapper.setAttribute('hidden', true);
+                toggleButton.setAttribute('aria-expanded', false);
+            } else {
+                toggleButtonText.innerText = 'Show Less';
+                fullTextWrapper.removeAttribute('hidden');
+                toggleButton.setAttribute('aria-expanded', true);
+            }
+        });
+    });
 }
-
-function fadeImg(el, val, fade){
-    if(fade === true){
-        val--;
-    }else{
-        val ++;
-    }
-
-    if(val > 0 && val < 100){
-        el.style.opacity = val / 100;
-        setTimeout(function(){fadeImg(el, val, fade);}, 10);
-    }
-}
-
-var images = [],
-x = 0;
-
-images[0] = "image2.jpg";
-images[1] = "image3.jpg";
-images[2] = "image4.jpg";
-images[3] = "image5.jpg";
-images[4] = "image6.jpg";
-images[5] = "image7.jpg";
-images[6] = "image8.jpg";
-images[7] = "image9.jpg";
-images[8] = "image10.jpg";
-images[9] = "image11.jpg";
-setTimeout("changeImage()", 6000)

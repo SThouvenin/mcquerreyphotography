@@ -142,7 +142,10 @@ header .picture .one p {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 55px;
-    float: top center;
+}
+#subtitle {
+    font-size: 5em;
+    padding-top: 50px;
 }
 #outside{
 	background-color: #1E1E1E;
@@ -172,8 +175,45 @@ header .picture .one p {
 .info{
 	/*background-color: grey;*/
 	font-size: 1.3em;
+    line-height: 26px;
 	padding-left: 5%;
 	padding-right: 5%;
+}
+/*** READ MORE ***/
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
 }
 /*****Footer*****/
 .panel-footer {
@@ -198,7 +238,7 @@ header .picture .one p {
   line-height: 1.8;
 }
 .ion-social-facebook{
-	color: #05056F;
+	color: #2b427c;
 }
 #social a {
 	font-size: 500%;
