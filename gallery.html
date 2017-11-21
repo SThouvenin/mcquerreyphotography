@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./css/resets.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/ionicons.min.css" />
-    <link rel="stylesheet" href="./css/stylesheet.css">
+<!--     <link rel="stylesheet" href="./css/stylesheet.css"> -->
+    <link rel="stylesheet" href="./css/gallery.css">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
@@ -33,26 +34,8 @@
      	      <a class="prime" href="index.html#one">Home</a>
      	    </li>
      	    <li>
-     	      <a class="prime" href="#">Portfolio</a>
-     	      <!-- <ul class="dropdown-menu">
-				<li><a href="#">Beauty/Glamour</a></li>
-                <li><a href="#">Fantasy</a></li>
-                <li><a href="#">Historical Fashion</a></li>
-                <li><a href="#">Fairytale</a></li>
-                <li><a href="#">Ethereal</a></li>
-                <li><a href="#">Pinup</a></li>
-                <li><a href="#">Boudoir</a></li>
-                <li><a href="#">Engagements</a></li>
-                <li><a href="#">Maternity</a></li>
-                <li><a href="#">Babies and Family Photos</a></li>
-                <li><a href="#">Senior Portraits</a></li>
-                <li><a href="#">Animals</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Specials</li>
-                <li><a href="#">Custom Dresses</a></li>
-                <li><a href="#">Weddings</a></li>
-                <li role="separator" class="divider"></li>
-     	      </ul> -->
+     	      <a class="prime" href="#gallery">Gallery</a>
+
      	    <li>
      	      <a class="prime" href="index.html#about">About Me</a>
      	    </li>
@@ -68,67 +51,67 @@
 		</div>
 	  </div>
 	</nav>
-	<header id="one" class="one">
-	  <div class="picture">
-	    <h1 class="fancy">Stacy Mcquerrey Photography</h1>
-	    <h4 class="smaller">Let me capture your inner fairytale</h4>
-	    <hr class="hidden">
-	  </div>
+	<header>
+    <div class="symbol">M</div>
+    <hr>
 	</header>
-	<div class="quote">
+  <section >
+    <h2 class="sectionName">Fantasy</h2>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="./assets/full-image1.jpg" style="width:100%">
+    </div>
+
+  <div class="mySlides fade">
+    <img src="./assets/full-image2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./assets/full-image3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./assets/full-image4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./assets/full-image5.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./assets/full-image6.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span> 
+  <span class="dot" onclick="currentSlide(8)"></span> 
+  <span class="dot" onclick="currentSlide(9)"></span>  
+</div>
+  </section>
+	<div class="quote hidden-xs">
 	  <div class="container-fluid">
 		<h4 id="inner-quote" class="text-center"> "Once in awhile, right in the middle of an ordinary life, Love gives us a fairy tale" -Anonymous </h4>
 	  </div>
 	</div>
-	<section id="about">
-	  <div class="container">
-	  	<h3 id="subtitle" class="text-center"> About Me </h3>
-	    <img src="./assets/profile2.jpg" alt="Stacy">
-	  </div>
-	  <div>
-	    <br>
-	    <h3 id="about-name"> Stacy Mcquerrey</h3>
-	      <h4 id="about-blurb">Experienced Wedding and Fantasy Photographer <span><h6>Galion, Ohio</h6></span></h4>
-	      <hr class="abouthr">
-	  </div>
-	  <div id="information"> 
-	      <p class="aboutp">Hello, I'm Stacy!<br>I'm a photography enthusiast that resides in Galion, Ohio - near Mansfield. I photograph Weddings, engagements, portraits, and model all across Ohio.</p>
-	        <br>
-	    <h4 id="small-header">Experience:</h4> 
-	      <p class="aboutp"> Wedding Photography, Fairytale/Fantasy, Boudoir, Senior Portraits, Engagements, Maternity, Family Portraits and Animals. <!-- Every love story is beautiful. Creating each wedding set to tell the story of your love through photos, for generations to come, is one of the greatest joys of being a photographer. They are the fairytales - the happily ever afters, that exist outside of the books. --></p>
-	        <br>
-	    <h4 id="small-header">Passions:</h4> 
-	      <p class="aboutp">Many of my passions go hand and hand with my love of photography. In my spare time, I enjoy creating beautiful, flowing or flowered dresses from ones I picked from second hand shops. I often put together the setting placement as well. I enjoy looking through Pinterest in search of my next hair inspiration or some make-up ideas. I spend time on YouTube trying to perfect hair and make-up techniques for my next shoot.</p>
-	        <br>
-	    <h4 id="small-header">Overview:</h4>
-	      <p class="aboutp">I have pursued a career as an independent photographer for well over 10 years. During my photography journey, I have found that photographing people cannot be compared to any other type of photography. To capture the raw beauty behind the eyes in what I am after. I have always been fascinated with the models in advertisements contained within magazines such as 'Vogue' and how the image can pursuade people to buy the product.</p>
-	        <br>
-	        <br>
-	  </div>
-	</section>
-	<div class="quote">
+
+	<div class="quote hidden-xs">
 	  <div class="container-fluid">
 		<h4 id="inner-quote" class="text-center"> "A camera is a Save button for the mind's eye" -Roger Kingston </h4>
 	  </div>
 	</div>
-	<section id="testimonials">
-	  <div class="container-fluid">
-	  <h3 id="subtitle" class="text-center"> Testimonials </h3>
-	  	  <section id="outside" class="text-center">
-	  	      <img src="./assets/test1.jpg" class="test1">
-	  	      <h3 class="test-name"> Shannon Thouvenin</h3>
-	  	      <hr><br>
-	  	      <div class="info">"Stacy, is by far one of the most talented individuals I have ever met. There is no limit to her creativeness. Her ability to use lighting surpasses many, and she is great at being resourceful on the spot with new innovative ideas. Along side of photography she is fabulous at doing hair and make-up as well. Additionally, she creates some of the most beautiful dresses I have ever seen, each one of them unique and fit to suit each model perfectly. If being unbelievably talented isn't enough, she is one of the most inspiring people I know. She has the kindest heart and has touched many people's hearts in turn. I know she inspires me every day to be a better person and model!"</div>
-	  	  </section>
-<!-- 	  	  <section id="outside" class="text-center">
-	  	      <img src="./assets/test1.jpg" class="test1">
-	  	  </section>
-	  	  <section id="outside" class="text-center">
-	  	      <img src="./assets/test1.jpg" class="test1">
-	  	  </section> -->
-	  </div>
-	</section>
-	<div class="quote">
+
+	<div class="quote hidden-xs">
 	  <div class="container-fluid">
 		<h4 id="inner-quote" class="text-center">"The artist sees what other only catch a glimpse of." -Leonardo DaVinci </h4>
 	  </div>
@@ -137,7 +120,7 @@
       <div class="container-fluid">
         <div class="row">
           <section id="address" class="col-sm-4">
-          	<span>Mcquerrey Studio:</span><br>
+          	<span>Mcquerrey Studios:</span><br>
           	252 John Street<br>
             Galion, OH 44833
           <p>*Please book a slot prior to arrival. Will travel half way within Ohio, or to location <span>($25/50)</span> </p>
@@ -145,8 +128,8 @@
           </section>
        	  <section id="contact-info" class="col-sm-4">
             <span>Contact: </span><br>
-            <p>Stacy Mcquerrey: (419) 612-2030</p>
-            <a href="mailto:mcquerreys@yahoo.com?Subject=Hello%20Stacy" target="_top">McquerreyS@yahoo.com</a>
+            <p>Stacy Mcquerrey: <a href="tel:419-612-5008"><span class="phone">(419) 612-2030</span></a></p>
+            <a class="phone" href="mailto:mcquerreys@yahoo.com?Subject=Hello%20Stacy" target="_top">McquerreyS@yahoo.com</a>
             <br>
            <hr class="visible-xs">
           </section>
@@ -164,6 +147,6 @@
 	    <script src="./js/jquery.min.js"></script>
 	    <script src="./js/bootstrap.min.js"></script>
 	    <script src="./js/jquery.easing.min.js"></script>
-<!-- 	    <script src="./js/script.js"></script> -->
+	    <script src="./js/galleryjs.js"></script>
   </body>
 </html>

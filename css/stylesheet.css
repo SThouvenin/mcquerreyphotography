@@ -16,6 +16,14 @@ body {
     background-color: #1E1D1F;
     color: #C9C9C9;
 }
+.more {
+    padding: 15px 20px;
+    margin-top: 50px;
+    border-radius: 10%;
+    background-color: black;
+    font-family: 'Josefin Slab';
+    font-size: 1.2em;
+}
 /*** Popup***/
 .pop-outer{
     background-color: rgba(0,0,0,0.5);
@@ -168,7 +176,8 @@ header .picture .one p {
 }
 #subtitle {
     font-size: 5em;
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 #outside{
 	background-color: #1E1E1E;
@@ -271,8 +280,13 @@ header .picture .one p {
 #social a span {
 	font-size: 50%;
 }
-
-
+.phone {
+    color: #ffff80;
+    text-decoration: underline;
+}
+a .phone:hover {
+    color: violet;
+}
 /***** General Responsive Design *****/
 
 @media (min-width : 20px) and (max-width : 766px) {
