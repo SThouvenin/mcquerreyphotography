@@ -1,3 +1,11 @@
+// Popup Jquery
+$(document).ready(function(){
+    $('.close').click(function() {
+        $(".pop-outer").css("display", "none");
+    });
+});
+
+
 // cut the mustard
 if ('querySelector' in document && 
     'addEventListener' in window) {
@@ -36,3 +44,4 @@ if ('querySelector' in document &&
         });
     });
 }
+

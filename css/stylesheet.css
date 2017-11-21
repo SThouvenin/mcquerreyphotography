@@ -16,6 +16,28 @@ body {
     background-color: #1E1D1F;
     color: #C9C9C9;
 }
+/*** Popup***/
+.pop-outer{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+.pop-inner {
+    background-color: #fff;
+    width: 330px;
+    height: 400px;
+    padding: 25px;
+    margin: 15% auto;
+    z-index: 9999;
+}
+.close{
+    font-size: 2.2em;
+}
+
 /*** Navigation ***/
 .navbar-brand {
 	font-family: "Kaushan Script";
@@ -45,6 +67,7 @@ header {
     position: relative;
     min-height: auto;
     text-align: center;
+    z-index: 1;
     color: #fff;
     width: 100%;
     background-image: url('../assets/full-image1.jpg');
