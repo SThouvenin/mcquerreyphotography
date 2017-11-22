@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="./css/ionicons.min.css" />
 <!--     <link rel="stylesheet" href="./css/stylesheet.css"> -->
     <link rel="stylesheet" href="./css/gallery.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    <!-- Fonts -->
+     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
   </head>
@@ -35,7 +36,6 @@
      	    </li>
      	    <li>
      	      <a class="prime" href="#gallery">Gallery</a>
-
      	    <li>
      	      <a class="prime" href="index.html#about">About Me</a>
      	    </li>
@@ -54,68 +54,316 @@
 	<header>
     <div class="symbol">M</div>
     <hr>
-	</header>
-  <section >
+</header>
+  <section>
     <h2 class="sectionName">Fantasy</h2>
-  <div class="slideshow-container">
+  <div class="w3-content w3-display-container slider slideshow-container" id="div1">
     <div class="mySlides fade">
-      <img src="./assets/full-image1.jpg" style="width:100%">
+      <img class="vert" src="./assets/fan5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/fan14.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/fan9.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/fan1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/fan2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/fan3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/fan4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/fan8.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/fan13.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/fan12.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/fan7.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/fan11.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/fan10.jpg" style="width:100%">
     </div>
 
-  <div class="mySlides fade">
-    <img src="./assets/full-image2.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="./assets/full-image3.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="./assets/full-image4.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="./assets/full-image5.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="./assets/full-image6.jpg" style="width:100%">
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a class="w3-btn-floating w3-display-left prev" onclick="plusDivs(this,-1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right next" onclick="plusDivs(this,1)">&#10095;</a>
 </div>
 <br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-  <span class="dot" onclick="currentSlide(4)"></span> 
-  <span class="dot" onclick="currentSlide(5)"></span> 
-  <span class="dot" onclick="currentSlide(6)"></span>
-  <span class="dot" onclick="currentSlide(7)"></span> 
-  <span class="dot" onclick="currentSlide(8)"></span> 
-  <span class="dot" onclick="currentSlide(9)"></span>  
-</div>
   </section>
-	<div class="quote hidden-xs">
-	  <div class="container-fluid">
-		<h4 id="inner-quote" class="text-center"> "Once in awhile, right in the middle of an ordinary life, Love gives us a fairy tale" -Anonymous </h4>
-	  </div>
-	</div>
+  <br>
+<hr>
+<section>
+    <h2 class="sectionName">Historical<span class="romance"> Romance</span></h2>
+      <div class="w3-content w3-display-container slideshow-container slider" id="div2">
+    <div class="mySlides fade">
+      <img src="./assets/hist1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/hist2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/hist3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/hist5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/hist6.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/hist8.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/hist9.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/hist10.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/hist11.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/hist13.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/hist15.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/hist14.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/hist12.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/hist16.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/hist7.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/hist17.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/hist4.jpg" style="width:100%">
+    </div>
 
-	<div class="quote hidden-xs">
-	  <div class="container-fluid">
-		<h4 id="inner-quote" class="text-center"> "A camera is a Save button for the mind's eye" -Roger Kingston </h4>
-	  </div>
-	</div>
+  <a class="w3-btn-floating w3-display-left prev" onclick="plusDivs(this, -1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right next" onclick="plusDivs(this, 1)">&#10095;</a>
+</div>
+<br>
+  </section>
+  <br>
+  <hr>
+  <section>
+    <h2 class="sectionName">Conceptual <span class="and"> and </span> Cosplay</h2>
+  <div class="w3-content w3-display-container slider slideshow-container" id="div3">
 
-	<div class="quote hidden-xs">
-	  <div class="container-fluid">
-		<h4 id="inner-quote" class="text-center">"The artist sees what other only catch a glimpse of." -Leonardo DaVinci </h4>
-	  </div>
-	</div>
+    <div class="mySlides fade">
+      <img src="./assets/con5.jpg" style="width:100%">
+    </div>   
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/con6.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/con8.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/con12.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/con14.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/con1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/con2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/con4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/con3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/con11.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/con9.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class= "vert" src="./assets/con10.jpg" style="width:100%">
+    </div>    
+    <div class="mySlides fade">
+      <img src="./assets/con13.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="./assets/con15.jpg" style="width:100%">
+    </div>
+  <a class="w3-btn-floating w3-display-left prev" onclick="plusDivs(this,-1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right next" onclick="plusDivs(this,1)">&#10095;</a>
+</div>
+<br>
+  </section>
+  <br>
+<hr>
+<section>
+    <h2 class="sectionName">Ethereal</h2>
+      <div class="w3-content w3-display-container slideshow-container slider" id="div4">
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/ethereal10.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/ethereal9.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/ethereal11.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/ethereal13.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/ethereal7.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/ethereal8.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/ethereal2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img  src="./assets/ethereal3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/ethereal4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/ethereal1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/ethereal5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/ethereal6.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/ethereal12.jpg" style="width:100%">
+    </div>
+
+  <a class="w3-btn-floating w3-display-left prev" onclick="plusDivs(this, -1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right next" onclick="plusDivs(this, 1)">&#10095;</a>
+</div>
+<br>
+<hr>
+<section>
+    <h2 class="sectionName">Portraits</h2>
+      <div class="w3-content w3-display-container slideshow-container slider" id="div5">
+    <div class="mySlides fade">
+      <img src="./assets/port9.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/port12.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/port7.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/port8.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/port15.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/port10.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/port14.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/port5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/port1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/port13.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/port2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/port3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/port4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/port4.jpg" style="width:100%">
+    </div>
+
+  <a class="w3-btn-floating w3-display-left prev" onclick="plusDivs(this, -1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right next" onclick="plusDivs(this, 1)">&#10095;</a>
+</div>
+<br>
+<hr>
+<section>
+    <h2 class="sectionName">Fashion Couture</h2>
+      <div class="w3-content w3-display-container slideshow-container slider" id="div6">
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/ture9.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/ture6.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/ture10.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class= "vert" src="./assets/ture8.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/ture5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/ture2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/ture3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/ture7.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="vert" src="./assets/ture1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/ture11.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="./assets/ture12.jpg" style="width:100%">
+    </div>
+
+  <a class="w3-btn-floating w3-display-left prev" onclick="plusDivs(this, -1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right next" onclick="plusDivs(this, 1)">&#10095;</a>
+</div>
+<br>
+</section>
+<br>
+
 	<footer id="bottom" class="panel-footer">
       <div class="container-fluid">
         <div class="row">
