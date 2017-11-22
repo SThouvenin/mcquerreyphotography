@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 @import url('https://fonts.googleapis.com/css?family=Montez');
 @import url('https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
 
 /*** Body ***/
 html,
@@ -23,7 +24,7 @@ body {
 	text-align: center;
 }
 .sectionName {
-	font-family: "Monsieur La Doulaise";
+	font-family: "Sacramento";
 	text-align: center;
 	font-size: 3em;
 	margin: 2.5%;
