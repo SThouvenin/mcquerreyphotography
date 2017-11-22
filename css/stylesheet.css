@@ -281,7 +281,7 @@ header .picture .one p {
 	font-size: 50%;
 }
 .phone {
-    color: #ffff80;
+/*    color: #ffff80;*/
     text-decoration: underline;
 }
 a .phone:hover {
