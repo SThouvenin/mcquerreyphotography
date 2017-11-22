@@ -262,11 +262,11 @@ header .picture .one p {
   line-height: 2; /* adjusts space between lines */
 }
 #contact-info > span, #address > span { /*hours and address became larger */
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 #address p {
   color: #557c3e;
-  font-size: .8em;
+  font-size: 1.3em;
   line-height: 1.8;
 }
 .ion-social-facebook{
@@ -287,6 +287,7 @@ header .picture .one p {
 a .phone:hover {
     color: violet;
 }
+
 /***** General Responsive Design *****/
 
 @media (min-width : 20px) and (max-width : 766px) {
@@ -593,7 +594,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -659,7 +660,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -689,7 +690,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -721,7 +722,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -751,7 +752,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -783,7 +784,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -813,7 +814,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -845,7 +846,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -875,7 +876,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -907,7 +908,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -938,7 +939,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -970,7 +971,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1034,7 +1035,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1065,7 +1066,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1161,7 +1162,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1224,7 +1225,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1287,7 +1288,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1318,7 +1319,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1350,7 +1351,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1381,7 +1382,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1413,7 +1414,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1444,7 +1445,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1476,7 +1477,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1507,7 +1508,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
